@@ -1,7 +1,8 @@
 /*
  * Nome: Gabriel Henrique Jesus de Melo
  * Instituição: UFGD - Sistemas de Informação
- * Finalidade: Simulador de parâmetros de memória cache baseado em entrada manual
+ * Finalidade: Simulador de parâmetros de memória cache baseado em entrada
+ * manual
  */
 
 #include <cmath>
@@ -28,10 +29,11 @@ struct DadosMemoria {
 void exibirMenu() {
   cout << "\n=======================================\n";
   cout << "   SIMULADOR DE MAPEAMENTO DE CACHE    \n";
-  cout << "=======================================\n";
+  cout << "=========================================\n";
   cout << "1. Informar dados iniciais\n";
   cout << "2. Apresentar informacoes calculadas\n";
   cout << "3. Sair do programa\n";
+  cout << "=========================================\n";
   cout << "Escolha uma opcao: ";
 }
 
@@ -47,7 +49,8 @@ bool informarDados(DadosMemoria &dados) {
   cin >> dados.mp_kb;
   cout << "Quantidade de palavras por bloco: ";
   cin >> dados.palavras_por_bloco;
-  cout << "Tipo de mapeamento (1:Direto, 2:Totalmente Associativo, 3:Associativo "
+  cout << "Tipo de mapeamento (1:Direto, 2:Totalmente Associativo, "
+          "3:Associativo "
           "por Conjunto): ";
   cin >> dados.tipo_mapeamento;
   cout << "Tamanho da Cache (bytes): ";
