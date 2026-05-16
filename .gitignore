@@ -1,0 +1,9 @@
+# Executáveis
+*.exe
+*.o
+*.out
+
+# IDEs
+.vscode/
+.idea/
+*.swp
