@@ -29,11 +29,11 @@ struct DadosMemoria {
 void exibirMenu() {
   cout << "\n=======================================\n";
   cout << "   SIMULADOR DE MAPEAMENTO DE CACHE    \n";
-  cout << "=========================================\n";
+  cout << "=======================================\n";
   cout << "1. Informar dados iniciais\n";
   cout << "2. Apresentar informacoes calculadas\n";
   cout << "3. Sair do programa\n";
-  cout << "=========================================\n";
+  cout << "=======================================\n";
   cout << "Escolha uma opcao: ";
 }
 
@@ -207,7 +207,7 @@ int main() {
       }
       break;
     case 3:
-      cout << "Encerrando o simulador... Sucesso no trabalho!\n";
+      cout << "Encerrando o simulador... Até a próxima!\n";
       break;
     default:
       cout << "Opcao invalida. Tente novamente.\n";
